@@ -1,1 +1,1 @@
-json.array! @users, partial: 'users/user', as: :user
+json.array! @homes, partial: 'homes/home', as: :home
