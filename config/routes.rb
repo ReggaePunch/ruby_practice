@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :portals
   resources :articles
   resources :users
   resources :homes
