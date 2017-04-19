@@ -1,0 +1,247 @@
+/* line 4, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+body {
+  font-family: "Nico Moji", sans-serif;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 12, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.column {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* line 20, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.info {
+  margin-bottom: 10%;
+}
+
+/* line 23, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+h2 {
+  font-size: 3rem;
+  color: #FFF;
+}
+
+/* line 27, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+p {
+  font-size: 1.5rem;
+}
+
+/* line 30, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.cat1 {
+  background: url(READ.jpg) no-repeat top center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  margin-top: 58px;
+}
+
+/* line 40, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.cat1:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.cat2 {
+  background: url(./WRITE.jpg) no-repeat top center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  margin-top: 58px;
+}
+
+/* line 54, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.cat2:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+@media all and (min-width: 500px) {
+  /* line 60, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+  .wrapper {
+    display: flex;
+  }
+}
+/* line 4, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+body {
+  font-family: "Nico Moji", sans-serif;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 12, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+.column {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* line 20, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+.info {
+  margin-bottom: 10%;
+}
+
+/* line 23, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+h2 {
+  font-size: 3rem;
+  color: #FFF;
+}
+
+/* line 27, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+p {
+  font-size: 1.5rem;
+}
+
+/* line 30, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+.cat1 {
+  background: url(READ.jpg) no-repeat top center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* line 39, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+.cat1:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+/* line 43, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+.cat2 {
+  background: url(./WRITE.jpg) no-repeat top center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* line 52, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+.cat2:hover {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+@media all and (min-width: 500px) {
+  /* line 58, /home/ubuntu/workspace/app/assets/stylesheets/portals.scss */
+  .wrapper {
+    display: flex;
+  }
+}
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
