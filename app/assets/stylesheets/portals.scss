@@ -28,7 +28,7 @@ body {
         font-size: 1.5rem;
     }
 .cat1 {
-    background: url(READ.jpg) no-repeat top center;
+    background: image-url("READ.jpg") no-repeat top center;
     background-size: cover;
     color: rgba(255,255,255,.7);
 	-webkit-filter: blur(4px);
@@ -41,7 +41,7 @@ body {
 	filter: blur(0);
     }
 .cat2 {
-    background: url(./WRITE.jpg) no-repeat top center;
+    background: image-url("READ.jpg") no-repeat top center;
     background-size: cover;
     color: rgba(255,255,255,.7);
 	-webkit-filter: blur(4px);
